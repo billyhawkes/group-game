@@ -2,8 +2,10 @@
 
 - [x] Simple 2d movement
 - [x] Entity system
-- [ ] 8 Controller Support
-- [ ] Simple Character UI and Background
+- [x] 8 Controller Support
+- [x] Simple Characters (2)
+- [ ] Design rest of characters
+- [ ] Background
 - [ ] Start menu
 - [ ] Physics (box2d?)
 

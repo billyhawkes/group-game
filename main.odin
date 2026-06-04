@@ -21,6 +21,8 @@ main :: proc() {
 	rl.InitWindow(1280, 720, "Cool game")
 	rl.SetTargetFPS(60)
 
+	atlas := rl.LoadTexture("./assets/spritesheet.png")
+
 	defer delete(entities)
 
 	for !rl.WindowShouldClose() {
@@ -32,7 +34,7 @@ main :: proc() {
 		for &e in entities {
 			switch &t in e {
 			case Player:
-				t.update(&t)
+				t.update(&t, atlas)
 			}
 		}
 
