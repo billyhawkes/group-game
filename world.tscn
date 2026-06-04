@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://v3ird35a76x"]
-
-[ext_resource type="Script" uid="uid://d22f6cvyd6as3" path="res://player-manager.gd" id="1_tlwt5"]
-
-[node name="World" type="Node2D" unique_id=494585617]
-script = ExtResource("1_tlwt5")
